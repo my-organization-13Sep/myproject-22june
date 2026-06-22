@@ -1,3 +1,21 @@
 
 <h1> This is code deployment for Apache </h1>
 This is content
+Gateway API
+==============================
+gatewayClass
+
+gatewayClass shows us various gateway Controllers
+These controllers acts like plugin that are having permission to request GCP to porvide application LB
+Using any one of these controllers we will create application LB
+
+The gateway controller comes along with the cloud cluster. we donnot have to create it
+
+# kubectl get gatewayclass
+
+Gateway :
+Gateway == Load balancer on the cloud
+We create a gateway using YAML
+We write a YAML file in which we will tell which gateway controller(gatewayclass) will be used to create
+Load Balancer
+
